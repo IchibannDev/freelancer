@@ -1,13 +1,20 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #ffc107;
+    --secondary: #0097a7;
+    --gray: #757575;
+}
 html {
     font-size: 10px; /* 1rem = 10px */
 }
 body {
     font-size: 16px;
 }
-h1 {
+.title {
     text-align: center;
     font-size: 3.8rem;
 }
-span {
+.title span {
     font-size: 2rem;
 }
