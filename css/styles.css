@@ -8,6 +8,12 @@
 }
 html {
     font-size: 10px; /* 1rem = 10px */
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 body {
     font-size: 1.6rem; /* reset font-size */
@@ -55,4 +61,6 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 45rem;
+    padding: 2rem;
 }
